@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ScheduleMeetingActivity">
+
+    <TextView
+        android:id="@+id/tv_meeting_date"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_45sdp"
+        android:layout_margin="@dimen/_10sdp"
+        android:background="@drawable/custom_rounded_corner"
+        android:gravity="center_horizontal"
+        android:text="Meeting Date"
+        android:textAlignment="center"
+        android:textSize="@dimen/_30ssp" />
+
+    <TextView
+        android:id="@+id/tv_start_time"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_45sdp"
+        android:layout_margin="@dimen/_10sdp"
+        android:background="@drawable/custom_rounded_corner"
+        android:gravity="center_horizontal"
+        android:text="Start Time"
+        android:textAlignment="center"
+        android:textSize="@dimen/_30ssp" />
+
+    <TextView
+        android:id="@+id/tv_end_time"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_45sdp"
+        android:layout_margin="@dimen/_10sdp"
+        android:background="@drawable/custom_rounded_corner"
+        android:gravity="center"
+        android:text="End Date"
+        android:textAlignment="center"
+        android:textSize="@dimen/_30ssp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_100sdp"
+        android:layout_margin="@dimen/_10sdp"
+        android:hint="Description"
+        android:id="@+id/et_desciption"
+        android:textSize="@dimen/_20ssp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:id="@+id/btn_submit"
+        android:textAllCaps="true"
+        android:textSize="@dimen/_30ssp"
+        android:padding="@dimen/_10sdp"/>
+
+</LinearLayout>
